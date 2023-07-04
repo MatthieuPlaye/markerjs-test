@@ -1,0 +1,23 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6px;
+  }
+
+  .imageEditor {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(17, 17, 17);
+  }
+
+  ion-modal {
+    --height: 80vh;
+    --background: rgb(17, 17, 17);
+    --border-radius: 16px;
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+
+  ion-modal::part(backdrop) {
+    background: rgba(17, 17, 17);
+    opacity: 0.8;
+  }

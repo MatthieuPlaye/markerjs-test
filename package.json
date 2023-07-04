@@ -9,7 +9,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "run:android": "ionic capacitor run android --livereload --external"
   },
   "private": true,
   "dependencies": {
@@ -21,13 +22,17 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@capacitor/android": "5.1.0",
     "@capacitor/app": "5.0.5",
+    "@capacitor/camera": "^5.0.5",
     "@capacitor/core": "5.1.0",
     "@capacitor/haptics": "5.0.5",
+    "@capacitor/ios": "5.1.0",
     "@capacitor/keyboard": "5.0.5",
     "@capacitor/status-bar": "5.0.5",
     "@ionic/angular": "^7.0.0",
     "ionicons": "^7.0.0",
+    "markerjs2": "^2.29.4",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
