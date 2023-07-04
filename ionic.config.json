@@ -1,0 +1,7 @@
+{
+  "name": "markerjs-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
